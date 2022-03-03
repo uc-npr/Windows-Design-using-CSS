@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Project</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="window">
+        <div class="window-header">
+            <div class="title">
+                <h3>Options</h3>
+            </div>
+            <div class="controls">
+                <button class="btn"></button>
+                <button class="btn"></button>
+            </div>
+        </div>
+        <div class="window-content">
+            <div class="menu">
+                <button class="btn ml">Color</button>
+                <button class="btn">International</button>
+                <button class="btn">Save</button>
+                <button class="btn">Error Checking</button>
+                <button class="btn">Spelling</button>
+                <button class="btn mr">Security</button>
+                <div class="second-layer">
+                    <button class="btn active">View</button>
+                    <button class="btn">Calculation</button>
+                    <button class="btn">Edit</button>
+                    <button class="btn">General</button>
+                    <button class="btn">Transition</button>
+                    <button class="btn">Custom Lists</button>
+                    <button class="btn mr">Chart</button>
+                </div>
+            </div>
+            <div class="inside">
+                <!-- Show Section -->
+                <div class="show-heading">
+                    <p>Show</p>
+                    <div class="line"></div>
+                </div>
+                <div class="content">
+                    <form>
+                        <div class="form-item">
+                            <input class="show-checkbox" type="checkbox" id="stp" name="Show"
+                                value="Startup Task Pane" />
+                            <label for="stp">Start<u>u</u>p Task Pane</label>
+                        </div>
+                        <div class="form-item">
+                            <input class="show-checkbox" type="checkbox" id="fb" name="Show" value="Formula bar" />
+                            <label for="fb"><u>F</u>ormula bar</label>
+                        </div>
+                        <div class="form-item">
+                            <input class="show-checkbox" type="checkbox" id="sb" name="Show" value="Status bar" />
+                            <label for="sb"><u>S</u>tatus bar</label>
+                        </div>
+                        <div class="form-item">
+                            <input class="show-checkbox" type="checkbox" id="wit" name="Show"
+                                value="Windows in Taskbar" />
+                            <label for="wit"><u>W</u>indows in Taskbar</label>
+                        </div>
+                    </form>
+                </div>
+                <!-- Comments Section -->
+                <div class="comments-heading">
+                    <p>Comments</p>
+                    <div class="line"></div>
+                </div>
+                <div class="content comments-content">
+                    <form>
+                        <div class="form-item">
+                            <input class="comments-radio" type="radio" id="none" name="Comments" value="none" />
+                            <label for="none"><u>N</u>one</label>
+                        </div>
+                        <div class="form-item">
+                            <input class="comments-radio" type="radio" id="cio" name="Comments"
+                                value="Comment indicator only" />
+                            <label for="cio">Comment <u>i</u>ndicator only</label>
+                        </div>
+                        <div class="form-item">
+                            <input class="comments-radio" type="radio" id="ci" name="Comments"
+                                value="Comment & indicator" />
+                            <label for="ci">Co<u>m</u>ment & indicator</label>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Objects Section -->
+                <div class="objects-heading">
+                    <p>Objects</p>
+                    <div class="line"></div>
+                </div>
+                <div class="content objects-content">
+                    <form>
+                        <div class="form-item">
+                            <input class="objects-radio" type="radio" id="sa" name="objects" value="Show all" />
+                            <label for="sa">Show <u>a</u>ll</label>
+                        </div>
+                        <div class="form-item">
+                            <input class="objects-radio" type="radio" id="sp" name="objects"
+                                value="Show placeholders" />
+                            <label for="sp">Show <u>p</u>laceholders</label>
+                        </div>
+                        <div class="form-item">
+                            <input class="objects-radio" type="radio" id="ha" name="objects" value="Hide all" />
+                            <label for="ha">Hi<u>d</u>e all</label>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Window options -->
+                <div class="window-options-heading">
+                    <p>Window options</p>
+                    <div class="line"></div>
+                </div>
+                <div class="content window-options-content">
+                    <form>
+                        <div class="form-item">
+                            <input class="window-options-checkbox" type="checkbox" id="pb" name="window-options"
+                                value="Page breaks" />
+                            <label for="pb">Page brea<u>k</u>s</label>
+                        </div>
+                        <div class="form-item">
+                            <input class="window-options-checkbox" type="checkbox" id="rch" name="window-options"
+                                value="Row & column headers" />
+                            <label for="rch">Row & column h<u>e</u>aders</label>
+                        </div>
+                        <div class="form-item">
+                            <input class="window-options-checkbox" type="checkbox" id="hcb" name="window-options"
+                                value="Horizontal scroll bar" />
+                            <label for="hcb">Horizon<u>t</u>al scroll bar</label>
+                        </div>
+
+                        <div class="form-item">
+                            <input class="window-options-checkbox" type="checkbox" id="formula" name="window-options"
+                                value="Formulas" />
+                            <label for="formula">Fo<u>r</u>mulas</label>
+                        </div>
+                        <div class="form-item">
+                            <input class="window-options-checkbox" type="checkbox" id="os" name="window-options"
+                                value="Outline symbols" />
+                            <label for="sp"><u>O</u>utline symbols</label>
+                        </div>
+                        <div class="form-item">
+                            <input class="window-options-checkbox" type="checkbox" id="vsb" name="window-options"
+                                value="Virtical scroll bar" />
+                            <label for="ha"><u>V</u>irtical scroll bar</label>
+                        </div>
+
+                        <div class="form-item">
+                            <input class="window-options-checkbox" type="checkbox" id="gridlines" name="window-options"
+                                value="Gridlines" />
+                            <label for="gridlines"><u>G</u>ridlines</label>
+                        </div>
+                        <div class="form-item">
+                            <input class="window-options-checkbox" type="checkbox" id="zv" name="window-options"
+                                value="Zero values" />
+                            <label for="zv"><u>Z</u>ero values</label>
+                        </div>
+                        <div class="form-item">
+                            <input class="window-options-checkbox" type="checkbox" id="st" name="window-options"
+                                value="Sheet tabs" />
+                            <label for="st">Sheet ta<u>b</u>s</label>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Gridlines color -->
+                <div class="gridlines-color">
+                    <label for="grid-color">Gridlines <u>c</u>olor:</label>
+                    <select id="grid-color">
+                        <option>Automatic</option>
+                        <option>Blue</option>
+                        <option>Dark</option>
+                        <option>Light</option>
+                    </select>
+                </div>
+
+                <!-- End inside -->
+            </div>
+            <div class="container">
+                <Button class="ok button-active">Ok</Button>
+                <Button class="cancel">Cancel</Button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
