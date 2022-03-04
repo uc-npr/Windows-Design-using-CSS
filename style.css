@@ -80,23 +80,23 @@ body {
 }
 
 .window-header .controls .btn:nth-child(1) {
-  background: url(/assets/help.svg);
+  background: url("assets/help.svg");
 }
 .window-header .controls .btn:nth-child(1):hover {
-  background: url(/assets/help-hover.svg);
+  background: url("assets/help-hover.svg");
 }
 .window-header .controls .btn:nth-child(1):active {
-  background: url(/assets/help-active.svg);
+  background: url("assets/help-active.svg");
 }
 
 .window-header .controls .btn:nth-child(2) {
-  background: url(/assets/close.svg);
+  background: url("assets/close.svg");
 }
 .window-header .controls .btn:nth-child(2):hover {
-  background: url(/assets/close-hover.svg);
+  background: url("assets/close-hover.svg");
 }
 .window-header .controls .btn:nth-child(2):active {
-  background: url(/assets/close-active.svg);
+  background: url("assets/close-active.svg");
 }
 
 /* Windows content Style*/
@@ -253,7 +253,7 @@ form {
   border-radius: 2px;
   border: 2px solid rgb(196, 198, 201);
   appearance: none;
-  background: url("/assets/arrow.svg"), #fff;
+  background: url("assets/arrow.svg"), #fff;
   background-position-x: calc(100% - 2px);
   background-position-y: 3px;
   background-repeat: no-repeat;
@@ -264,7 +264,7 @@ form {
 }
 
 .gridlines-color select:hover {
-  background: url("/assets/arrow-hover.svg");
+  background: url("assets/arrow-hover.svg");
   background-position-x: calc(100% - 2px);
   background-position-y: 3px;
   background-repeat: no-repeat;
